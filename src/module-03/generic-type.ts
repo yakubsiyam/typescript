@@ -1,32 +1,32 @@
-type GenericTuple<X, Y> = [X, Y];
-const relation: GenericTuple<string, string> = ["Persian", "Kate"];
+// type GenericTuple<X, Y> = [X, Y];
+// const relation: GenericTuple<string, string> = ["Persian", "Kate"];
 
-type RelationWithSalaryType = {
-  name: string;
-  salary: number;
-};
+// type RelationWithSalaryType = {
+//   name: string;
+//   salary: number;
+// };
 
-const relationWithSalary: GenericTuple<RelationWithSalaryType, string> = [
-  {
-    name: "siyam",
-    salary: 123333333333,
-  },
-  "Kate",
-];
+// const relationWithSalary: GenericTuple<RelationWithSalaryType, string> = [
+//   {
+//     name: "siyam",
+//     salary: 123333333333,
+//   },
+//   "Kate",
+// ];
 
-type GenericArray<T> = Array<T>;
+// type GenericArray<T> = Array<T>;
 
-const rollNumbers1: GenericArray<number> = [44, 12, 4];
-const rollNumbers2: GenericArray<string> = ["44", "12", "4"];
+// const rollNumbers1: GenericArray<number> = [44, 12, 4];
+// const rollNumbers2: GenericArray<string> = ["44", "12", "4"];
 
-type NameRollType = {
-  name: string;
-  roll: number;
-};
+// type NameRollType = {
+//   name: string;
+//   roll: number;
+// };
 
-const userNameAndRollNumber: GenericArray<NameRollType> = [
-  {
-    name: "siyam",
-    roll: 1,
-  },
-];
+// const userNameAndRollNumber: GenericArray<NameRollType> = [
+//   {
+//     name: "siyam",
+//     roll: 1,
+//   },
+// ];
