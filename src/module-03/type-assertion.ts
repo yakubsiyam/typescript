@@ -20,10 +20,10 @@ console.log(resultToBeNumber);
 console.log(resultToBeString);
 
 type CustomType = {
-    message: string;
-}
+  message: string;
+};
 
-try{}
-catch(err){
-    console.log((err as CustomType).message);
+try {
+} catch (err) {
+  console.log((err as CustomType).message);
 }
