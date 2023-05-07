@@ -9,7 +9,6 @@ const searchName = (value: string | null) => {
 searchName(null);
 
 // unknown
-
 const getMyCarSpeed = (speed: unknown) => {
   if (typeof speed === "number") {
     const convertedSpeed = (speed * 1000) / 3600;
