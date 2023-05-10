@@ -19,11 +19,11 @@ type optional = Partial<Person>;
 type RequiredProps = Required<Person>;
 
 // Readonly
-const person5: Readonly<Person> = {
-  name: "Siyam",
-  email: "abc@gmail.com",
-  contactNo: "123456789",
-};
+// const person5: Readonly<Person> = {
+//   name: "Siyam",
+//   email: "abc@gmail.com",
+//   contactNo: "123456789",
+// };
 
 // person5.name = "Ali";
 
