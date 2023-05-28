@@ -6,7 +6,7 @@ let userInfo: [number, string, string, boolean, any, string] = [
   "Ema",
   "John",
   true,
-  ,
+  "",
   "2023",
 ];
 
